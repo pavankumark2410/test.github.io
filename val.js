@@ -112,7 +112,7 @@ buttonstate();
 function buttonstate()
 { $("#submit").hide();
 
-	if (validatename()  && validateemail() && validatephone() &&validateage() && username() && validatepass() ) {
+	if (validatename()  && validateemail() && validatephone() && validateage() &&validateage() && username() && validatepass() ) {
 		$("#submit").show();
 	}
 	else
